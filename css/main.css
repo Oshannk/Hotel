@@ -1,5 +1,7 @@
 
-
+body{
+  zoom: 70%;
+}
  .navbar{
     position: static;
     /* top: 10%; */
