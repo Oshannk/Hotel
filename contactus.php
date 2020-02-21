@@ -23,7 +23,9 @@
     <div class="row">
         <div class="col-sm-12">
             <div class="text-center">
+                <br/>
                 <h2 class="font1">Location & Transportation</h2>
+                <br/>
             </div>
         </div>
     </div>   
@@ -57,7 +59,9 @@ E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
         <div>
             <div class="col-sm-12">
                 <div class="text-center">
-                    <h2 class="font1">Airport Information</h2>
+                <br/>   
+                <h2 class="font1">Airport Information</h2>
+                    <br>
                 </div>
             </div>
         </div>
@@ -105,7 +109,9 @@ E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
 <div class="container">
     <div class="row">
         <div class="col-sm-12">
+            <br>
             <h3 class="font1"> Other Transportation</h3>
+            <br/>
         </div>
     </div>
     <div class="row">
