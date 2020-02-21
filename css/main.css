@@ -310,13 +310,6 @@ font-weight: bold;
   text-align: center;
 }
 /* Room */
-.border{
-  float: left;
- display: inline-block;
-  padding: 10px;
-  margin: 10px;
-  box-shadow:2px 2px 2px 2px  darkgrey;
-}
 .card-img-top{
   padding: 10px;
   
