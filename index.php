@@ -118,7 +118,7 @@
             <img class="rounded-circle" src="Img/dining.jpg" alt="Dining" width="140" height="140">
             <h2>Dining</h2>
             <p>Sample the scrumptious, globally-inspired offerings at Weligama Kitchen, our signature hotel restaurant. Casual and inviting, guests can delight in the buffet-style options at breakfast, lunch or dinner.</p>
-            <p><br><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p><br><a class="btn btn-secondary" href="dining.php" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-3">
             <img class="rounded-circle" src="Img/offer.jpg" alt="Offer" width="140" height="140">
