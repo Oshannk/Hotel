@@ -298,3 +298,14 @@ body{
     font-weight:600
   }
 }
+/* Font Changes */
+.font1{
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-weight: bold;
+}
+.font2{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-align: center;
+}
