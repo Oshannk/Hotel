@@ -314,3 +314,9 @@ font-weight: bold;
   padding: 10px;
   
 }
+.post{
+  padding: 5px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}

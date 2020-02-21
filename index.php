@@ -112,7 +112,7 @@
             <img class="rounded-circle" src="Img/spa.jpg" alt="Spa" width="140" height="140">
             <h2>Spa</h2>
             <p>Discover peace of mind while luxuriating in our specialized Balinese Ayu Spa in Matara. Let us pamper you with a relaxing synchronic massage or simply choose from an array of revitalizing spa treatments from the menu. </p>
-            <p><br><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p><br><a class="btn btn-secondary" href="spa.php" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-3">
             <img class="rounded-circle" src="Img/dining.jpg" alt="Dining" width="140" height="140">
@@ -124,16 +124,15 @@
             <img class="rounded-circle" src="Img/offer.jpg" alt="Offer" width="140" height="140">
             <h2>Offers</h2>
             <p>Looking for some fantastic hotel packages in Sri Lanka to enjoy great savings during your seaside holiday? Look no further as the deals offered here at our idyllic seaside resort will delight those who are intent on having themselves a blissful vacation.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-secondary" href="offers.php" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-3">
             <img class="rounded-circle" src="Img/room.jpg" alt="Room" width="140" height="140">
             <h2>Rooms</h2>
             <p>Experience 5-star luxury in our hotel roomsyou have approximately 50 different accommodation options. 22 of these are divided between 13 double rooms, 5 villas, 3 suites as well as the Grand Villa.</p>
-            <p><br><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <p><br><a class="btn btn-secondary" href="room.php" role="button">View details &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
-
       </div>
 
 
