@@ -11,13 +11,19 @@
     <link rel="stylesheet" href="css/mbr-additional.css" type="text/css">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/carousel/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+
     <title>Contact Us</title>
   </head>
   <body>
       <!-- Navigation Bar --> 
      <?php include ('asset/headder.html');?>
-     
+     <br>
+     <br>
+     <br>
+     <br>
 <br>
 <div class="container">
     <div class="row">
@@ -36,6 +42,11 @@
             <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.3324490536966!2d80.67783791858359!3d5.961235720605917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae137b4a71021c3%3A0x4f8404f50f0c3899!2zNcKwNTcnNDQuNCJOIDgwwrA0MCczNC4yIkU!5e0!3m2!1sen!2slk!4v1582258914768!5m2!1sen!2slk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
         <div class="col-sm-4">
+
+                
+
+
+
             Address:- <br>
             No.26, <br>
             BELIATHTHA, <br>
@@ -50,6 +61,98 @@ Sales fax:+94 41 4 600101 <br>
 E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
         </div>
     </div>
+<div class="row">
+
+<!--Section: Contact v.2-->
+<section class="mb-4">
+
+                <br/><hr>
+                <br/>
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-12 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
+                            <br/><!-- <label for="name" class="">Your name</label> -->
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control" placeholder="Your E-mail" required>
+                            <br/> <!-- <label for="email" class="">Your email</label> -->
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject">
+                           <br/> <!-- <label for="subject" class="">Subject</label> -->
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your Message"></textarea>
+                            <br/><!-- <label for="message">Your message</label> -->
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-right">
+            <a class="btn btn-primary" onclick="validateForm();">Send</a>
+         </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+
+
+
+</div>
+
+
+
+
+
 </div>
 
 <hr>
@@ -79,25 +182,25 @@ E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
     Shuttle Phone: +94 414 600103<br>
     Alternate transportation: Peppwe Life; fee: 175 USD (one way)<br>
     Estimated taxi fare: 175 USD (one way)<br>
-    <a href="http://www.colombo-airport.com/"> CMB airport website</a> 
+    <a href="http://www.colombo-airport.com/"> CMB airport website</a>  <br/>
 
     <div>
-       <h5 class="font2">Driving directions</h5> 
+       <h5 class="font2">Driving directions</h5>  <br/>
        <p>
         Canada Friendship Rd/AB9 to Colombo - Katunayake Expy E03. Get on Colombo-Kandy Hwy/A1 in Peliyagoda from Colombo - Katunayake Expy/E03. Get on E02 in from Biyagama Rd/B214 and Colombo - Hanwella Low Level Rd/AB10. Follow E01 to B465 in Exit from E01. Continue on B465. Drive to Matara Road/AH 43.
-        </p>
+        </p> <br/>
 </div>
         </div>
         <div class="col-sm-6">
-          <h3>  Mattala Rajapaksa International Airport (HRI)</h3>
+          <h3>  Mattala Rajapaksa International Airport (HRI)</h3> <br/>
             Airport Phone: +94 47 2 031000 <br>
 
             Hotel direction: 75.2 miles SW<br>
 
             This hotel does not provide shuttle service.<br>
 
-            <a href="http://www.airport.lk/mria/#page=page-3"> HRI airport website </a>
-            <h5 class="font2">Driving directions</h5>
+            <a href="http://www.airport.lk/mria/#page=page-3"> HRI airport website </a> <br/>
+            <br/><h5 class="font2">Driving directions</h5> <br/>
             Get on Hambantota-Gonnoruwa-Meegahajandura Rd. Follow Hambantota-Gonnoruwa-Meegahajandura Rd to Exit from Hambantota-Gonnoruwa-Meegahajandura Rd. Keep right 8 min. Continue on A2. Take Beliatta-Kirinda Rd, Matara - Hakmana Road and B275 to Matara Road.
         </div>
     </div>

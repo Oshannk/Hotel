@@ -2,11 +2,11 @@
 body{
   zoom: 70%;
 }
- .navbar{
+ /* .navbar{
     position: static;
     /* top: 10%; */
     color: red;
-}
+} */
 .loader {
     z-index: 7700;
     position: fixed;

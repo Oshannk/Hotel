@@ -15,6 +15,11 @@
     <title>Lagoon View</title>
   </head>
   <body >
+  <br>
+     <br>
+     <br>
+     <br>
+     
 
     <!-- Navigation Bar --> 
     <?php include ('asset/headder.html');?>
@@ -34,7 +39,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="Img/main1.jpg" alt="First slide">
+            <img class="d-block w-100" src="Img/main1.jpg" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1>Example headline.</h1>
@@ -45,7 +50,7 @@
           </div>
           
           <div class="carousel-item">
-            <img class="second-slide" src="Img/main2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="Img/main2.jpg" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Another example headline.</h1>
@@ -55,7 +60,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="Img/main3.jpg" alt="Third slide">
+            <img class="d-block w-100"src="Img/main3.jpg" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1>One more for good measure.</h1>
@@ -65,7 +70,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="fouth-slide" src="Img/main5.jpg" alt="fouth slide">
+            <img class="d-block w-100" src="Img/main5.jpg" alt="fouth slide">
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1>One more for good measure.</h1>
@@ -75,7 +80,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="fifth-slide" src="Img/main6.jpg" alt="Fifth slide">
+            <img class="d-block w-100" src="Img/main6.jpg" alt="Fifth slide">
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1>One more for good measure.</h1>
