@@ -19,8 +19,8 @@
     <!-- Navigation Bar --> 
     <?php include ('asset/headder.html');?>
 
-    <br>
-    <br>
+    <br><br>
+ 
     <hr>
 <div class="container-fluid">
     <div class="row">

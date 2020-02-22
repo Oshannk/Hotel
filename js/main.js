@@ -36,7 +36,6 @@ formData = {
 'message'  : $('textarea[name=message]').val()
 };
 
-
 $.ajax({
 url : "mail.php",
 type: "POST",
@@ -53,3 +52,4 @@ error: function (jqXHR, textStatus, errorThrown)
 $('#status').text(jqXHR);
 }
 });
+

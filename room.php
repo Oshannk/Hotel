@@ -20,8 +20,7 @@
     
      <!-- Navigation Bar --> 
      <?php include ('asset/headder.html');?>
-     <br>
-     <br>
+   
      <br>
      <br>
     <!--Carousel Wrapper-->
