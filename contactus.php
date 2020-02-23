@@ -35,19 +35,15 @@
                 <br/>
             </div>
         </div>
-    </div>   
-
-    <div class="row wow fadeInUp">
-        
-        <div class=" col-sm-8">
-            <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.3324490536966!2d80.67783791858359!3d5.961235720605917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae137b4a71021c3%3A0x4f8404f50f0c3899!2zNcKwNTcnNDQuNCJOIDgwwrA0MCczNC4yIkU!5e0!3m2!1sen!2slk!4v1582258914768!5m2!1sen!2slk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+</div>   
+<div class="container wow fadeInUp ">
+    <!-- wow fadeInUp -->
+    <div class="row">        
+        <div class=" col-sm-6 embed-responsive embed-responsive-3by4" >
+            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.3324490536966!2d80.67783791858359!3d5.961235720605917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae137b4a71021c3%3A0x4f8404f50f0c3899!2zNcKwNTcnNDQuNCJOIDgwwrA0MCczNC4yIkU!5e0!3m2!1sen!2slk!4v1582258914768!5m2!1sen!2slk" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
-        <div class="col-sm-4">
-
-                
-
-
-
+        <div class="col-sm-6 ">
             Address:- <br>
             No.26, <br>
             BELIATHTHA, <br>
@@ -62,6 +58,8 @@ Sales fax:+94 41 4 600101 <br>
 E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
         </div>
     </div>
+</div>
+<div class="container">
 <div class="row wow fadeInUp">
 
 <!--Section: Contact v.2-->
@@ -145,14 +143,7 @@ E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
 
 </section>
 <!--Section: Contact v.2-->
-
-
-
 </div>
-
-
-
-
 
 </div>
 
