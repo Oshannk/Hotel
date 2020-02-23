@@ -22,9 +22,9 @@ if(isset($_POST['username'])){
         {
             session_start();                            
              // Store data in session variables
-                $_SESSION["loggedin"] = true;
-                $_SESSION["password"] = $password;
-                $_SESSION["username"] = $username;                            
+                // $_SESSION["loggedin"] = true;
+                // $_SESSION["password"] = $password;
+                // $_SESSION["username"] = $username;                            
             header('Location:reservetable.php');
             // echo"Password Correct";
           

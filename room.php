@@ -91,7 +91,7 @@
                 <div class="btn-group">
                 <a href="resavation.php"> <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>    </a>              
                 </div>
-                <small class="text-muted">9 mins</small>
+                <!-- <small class="text-muted">9 mins</small> -->
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@
                     <a href="#">PREMIER SUITE - ONE BED ROOM</a>
                 </h3>
                 <ul class="room-info">
-                    <li style="font-size: 13px;"> 79 SQUARE METRES</li><br>
+                    <li style="font-size: 13px;"> 35 SQUARE METRES</li><br>
                     <li style="font-size: 13px;"> BREAKFAST INCLUDED </li><br>
                     <li style="font-size: 13px;"> SPACIOUS BATHROOM WITH GLASS ENCLOSURE</li><br>
                     <li style="font-size: 13px;">55” FLAT-SCREEN TELEVISION WITH CABLE CHANNELS</li><br>
@@ -115,7 +115,7 @@
                   <div class="btn-group">
                   <a href="resavation.php"> <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>    </a>              
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <!-- <small class="text-muted">9 mins</small> -->
                 </div>
               </div>
             </div>
@@ -125,10 +125,10 @@
               <img class="card-img-top" src="img/superior_twin.jpg" alt="Card image cap">
               <div class="card-body">
                 <h3 class="room-title">
-                    <a href="#">PLATIMUM ROOM</a>
+                    <a href="#">PLATIMUM SUITE</a>
                 </h3>
                 <ul class="room-info">
-                    <li style="font-size: 13px;">  35 SQUARE METRES</li><br>
+                    <li style="font-size: 13px;">  79 SQUARE METRES</li><br>
                     <li style="font-size: 13px;"> BREAKFAST INCLUDED </li><br>
                     <li style="font-size: 13px;"> SPACIOUS BATHROOM WITH GLASS ENCLOSURE</li><br>
                     <li style="font-size: 13px;">50” FLAT-SCREEN TELEVISION WITH CABLE CHANNELS</li><br>
@@ -139,7 +139,7 @@
                   <div class="btn-group">
                   <a href="resavation.php"> <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>    </a>                
                   </div>
-                  <small class="text-muted">9 mins</small>
+                  <!-- <small class="text-muted">9 mins</small> -->
                 </div>
               </div>
             </div>
