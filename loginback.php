@@ -25,15 +25,17 @@ if(isset($_POST['username'])){
                 $_SESSION["loggedin"] = true;
                 $_SESSION["password"] = $password;
                 $_SESSION["username"] = $username;                            
-            header('Location:test.html');
+            header('Location:reservetable.php');
             // echo"Password Correct";
           
 
         }else{
-            echo "password incorrect";
+            header('Location:login.php');
+            echo "<script type='text/javascript'>alert('$message');</script>";
+            // ?><script> alert("incorrect details"); window.history.back();</script><?php
         }
  }else{
-    echo "failed";
+    echo "Incorrect  Username";
     exit();
  }
 }

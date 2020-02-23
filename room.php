@@ -88,7 +88,7 @@
                 <br><br></ul>             
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>                  
+                <a href="resavation.php"> <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>    </a>              
                 </div>
                 <small class="text-muted">9 mins</small>
               </div>
@@ -112,7 +112,7 @@
                 </ul>             
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>                  
+                  <a href="resavation.php"> <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>    </a>              
                   </div>
                   <small class="text-muted">9 mins</small>
                 </div>
@@ -136,7 +136,7 @@
                <br/></ul>             
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>                  
+                  <a href="resavation.php"> <button type="button" class="btn btn-sm btn-outline-secondary">Book Now</button>    </a>                
                   </div>
                   <small class="text-muted">9 mins</small>
                 </div>

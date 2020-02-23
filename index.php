@@ -16,13 +16,10 @@
       
     
     
-    <title>Lagoon View</title>
+    <title>Home</title>
   </head>
-  <body >
-  
-     
-
-    <!-- Navigation Bar --> 
+  <body >  
+         <!-- Navigation Bar --> 
     <?php include ('asset/headder.html');?>
 
  <!-- Image Banner -->

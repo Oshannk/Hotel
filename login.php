@@ -2,11 +2,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V15</title>
+	<title>Admin Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
@@ -73,7 +72,7 @@
 					</div>
 
 					<div class="container-login100-form-btn">
-						<input class="login100-form-btn"  type="submit" value="Login">
+						<input class="btn btn-success login100-form-btn"  type="submit" value="Login">
 							<!-- Login -->
 						<!-- </button> -->
 					</div>

@@ -31,7 +31,7 @@
                 <img class="d-block w-100" src="img/banner.jpg" alt="First slide">
                 <div class="carousel-caption ">
                     <div id="booking" class="section">
-                        <div class="section-center">
+                        <div class="section-center" >
                             <div class="container">
                                 <div class="row">
                                     <div class="booking-form">
