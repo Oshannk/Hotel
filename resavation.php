@@ -15,6 +15,57 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
 
+    <!-- Script for make responsize custom -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script>
+            var stateManager = (function () {
+            var state = null;
+            var resizePage = function () {
+                
+                if ($('body').width() > 1500){
+                if (state !== "desktop") { displayDesktop(); }
+            
+                }
+                if ($('body').width() < 1500){
+                if (state !== "desktopsm") { displayDesktopsm(); }
+            
+                }
+                if ($('body').width() < 1100) {
+                if (state !== "mobile") { displayMobile(); }
+            
+                }
+                
+            }; 
+
+            var displayMobile = function () {
+                state = "mobile";
+                console.log("enter mobile");
+                $('#swap').attr('src', 'img/banner31.jpg');
+                //$("#res").height(1200);
+            };
+            var displayDesktopsm = function () {
+                state = "desktopsm";
+                console.log("enter desktopsm");
+                $('#swap').attr('src', 'img/banner2.jpg');
+                //$("#res").height(none);
+            };
+            var displayDesktop = function () {
+                state = "desktop";
+                console.log("enter desktop");
+                $('#swap').attr('src', 'img/banner1.jpg');
+                //$("#res").height(none);
+            };
+            
+            return {
+                init: function () {
+                resizePage();
+                $(window).on('resize', resizePage);
+                }
+            };
+            } ());
+            stateManager.init();    
+        </script>
+
 </head>
 
 <body>
@@ -27,9 +78,9 @@
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
             <!--First slide-->
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/banner.jpg" alt="First slide">
-                <div class="carousel-caption ">
+            <div class="carousel-item active" >
+                <img class="d-block w-100" id= "swap" src="img/banner1.jpg" alt="First slide">
+                <div class="carousel-caption " id="res">
                     <div id="booking" class="section">
                         <div class="section-center" >
                             <div class="container">
@@ -38,22 +89,21 @@
                                         <div class="form-header">
                                             <h1>Make your reservation</h1>
                                         </div>
-                                        <form>
+                                        <form action="db/insert.php" method="POST">
                                             <div class="form-group">
-                                                <input class="form-control" type="text"
-                                                    placeholder="Country, ZIP, city...">
-                                                <span class="form-label">Destination</span>
+                                                <input class="form-control" name="fullname" type="text" placeholder="Full Name" required="">
+                                                <span class="form-label">Full Name</span>
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input class="form-control" type="date" required="">
+                                                        <input class="form-control" name="checkin" type="date" required="">
                                                         <span class="form-label">Check In</span>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input class="form-control" type="date" required="">
+                                                        <input class="form-control" name="checkout" type="date" required="">
                                                         <span class="form-label">Check out</span>
                                                     </div>
                                                 </div>
@@ -61,11 +111,11 @@
                                             <div class="row">
                                                 <div class="col-md-4">
                                                     <div class="form-group">
-                                                        <select class="form-control" required="">
-                                                            <option value="" selected="" hidden="">no of rooms</option>
-                                                            <option>1</option>
-                                                            <option>2</option>
-                                                            <option>3</option>
+                                                        <select class="form-control" name="roomtype" required="">
+                                                            <option value="" selected="" hidden="">Romm Types</option>
+                                                            <option>SUPERIOR ROOM</option>
+                                                            <option>PREMIER SUITE</option>
+                                                            <option>PLATINUM SUITE</option>
                                                         </select>
                                                         <span class="select-arrow"></span>
                                                         <span class="form-label">Rooms</span>
@@ -73,8 +123,8 @@
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="form-group">
-                                                        <select class="form-control" required="">
-                                                            <option value="" selected="" hidden="">no of adults</option>
+                                                        <select class="form-control" name="adult" required="">
+                                                            <option value="" selected="" hidden="">No of Adults</option>
                                                             <option>1</option>
                                                             <option>2</option>
                                                             <option>3</option>
@@ -85,9 +135,8 @@
                                                 </div>
                                                 <div class="col-md-4">
                                                     <div class="form-group">
-                                                        <select class="form-control" required="">
-                                                            <option value="" selected="" hidden="">no of children
-                                                            </option>
+                                                        <select class="form-control" name="children" required="">
+                                                            <option value="" selected="" hidden="">No of Children</option>
                                                             <option>0</option>
                                                             <option>1</option>
                                                             <option>2</option>
@@ -100,15 +149,13 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input class="form-control" type="email"
-                                                            placeholder="Enter your Email">
+                                                        <input class="form-control" type="email" name="email" placeholder="Enter your Email">
                                                         <span class="form-label">Email</span>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input class="form-control" type="tel"
-                                                            placeholder="Enter you Phone">
+                                                        <input class="form-control" type="tel" name="number" placeholder="Enter you Phone">
                                                         <span class="form-label">Phone</span>
                                                     </div>
                                                 </div>
