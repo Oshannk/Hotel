@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/mbr-additional.css" type="text/css">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/carousel/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
     <!-- JavaScript -->
     <script src="js/main.js"></script>
@@ -26,7 +27,7 @@
      <br>
 <br>
 <div class="container">
-    <div class="row">
+    <div class="row wow fadeInUp">
         <div class="col-sm-12">
             <div class="text-center">
                 <br/>
@@ -36,7 +37,7 @@
         </div>
     </div>   
 
-    <div class="row">
+    <div class="row wow fadeInUp">
         
         <div class=" col-sm-8">
             <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3632.3324490536966!2d80.67783791858359!3d5.961235720605917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae137b4a71021c3%3A0x4f8404f50f0c3899!2zNcKwNTcnNDQuNCJOIDgwwrA0MCczNC4yIkU!5e0!3m2!1sen!2slk!4v1582258914768!5m2!1sen!2slk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
@@ -61,7 +62,7 @@ Sales fax:+94 41 4 600101 <br>
 E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
         </div>
     </div>
-<div class="row">
+<div class="row wow fadeInUp">
 
 <!--Section: Contact v.2-->
 <section class="mb-4">
@@ -157,7 +158,7 @@ E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
 
 <hr>
 
-<div class="container">
+<div class="container wow fadeInUp">
     <div class="container-fluid">
         <div>
             <div class="col-sm-12">
@@ -209,7 +210,7 @@ E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
 
 <hr>
 
-<div class="container">
+<div class="container wow fadeInUp">
     <div class="row">
         <div class="col-sm-12">
             <br>
@@ -248,5 +249,27 @@ E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+      <!-- JavaScript for animated fadeInUp using wow-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script>
+        var wow = new WOW(
+      {
+        boxClass:     'wow',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset:       -250,          // distance to the element when triggering the animation (default is 0)
+        mobile:       true,       // trigger animations on mobile devices (default is true)
+        live:         true,       // act on asynchronously loaded content (default is true)
+        callback:     function(box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null,    // optional scroll container selector, otherwise use window,
+        resetAnimation: true,     // reset animation on end (default is true)
+      }
+    );
+    wow.init();
+	</script>
+  
   </body>
 </html>

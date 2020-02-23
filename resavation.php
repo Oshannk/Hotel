@@ -15,7 +15,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
 
+
     <!-- Script for make responsize custom -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
         <script>
             var stateManager = (function () {
@@ -83,7 +86,7 @@
                 <div class="carousel-caption " id="res">
                     <div id="booking" class="section">
                         <div class="section-center">
-                            <div class="container">
+                            <div class="container animated fadeInUp">
                                 <div class="row">
                                     <div class="booking-form">
                                         <div class="form-header">
@@ -155,7 +158,7 @@
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <input class="form-control" type="tel" name="number" placeholder="Enter you Phone">
+                                                        <input class="form-control" type="number" name="number" placeholder="Enter you Phone">
                                                         <span class="form-label">Phone</span>
                                                     </div>
                                                 </div>
