@@ -16,7 +16,7 @@
         die("Error: ".$con->error);
     }
 
-    echo "New Record Added";
+    echo "<script type='text/javascript'>alert('Booking Successful'); window.location.href = '../index.php';</script>";
 
 $con->close();
 
