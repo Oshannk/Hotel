@@ -30,12 +30,12 @@ if(isset($_POST['username'])){
           
 
         }else{
-            header('Location:login.php');
-            echo "<script type='text/javascript'>alert('$message');</script>";
-            // ?><script> alert("incorrect details"); window.history.back();</script><?php
+            
+            echo "<script type='text/javascript'>alert('Your User Name Or Password is Incorrect'); window.location.href = 'login.php';</script>";
+            // header('Location:login.php');
         }
  }else{
-    echo "Incorrect  Username";
+    echo "<script type='text/javascript'>alert('Your User Name Or Password is Incorrect'); window.location.href = 'login.php';</script>";
     exit();
  }
 }

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" type="image/png" href="images/icons/home.ico"/>
+    <link rel="icon" type="image/png" href="img/icons/home.ico">
        <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
@@ -105,8 +105,8 @@
  <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
-
-      <div class="col-md-8" style="position: relative; left: 20%;">
+<div class="container">
+      <div class="col-md-12" >
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
@@ -136,7 +136,7 @@
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
       </div>
-
+</div>
 
 <hr>
 <!-- Start home-about Area -->
@@ -191,7 +191,10 @@
 <!-- End home-about Area -->	
 
 <!-- Footer -->
+<div>
+
 <?php include ('asset/footer.html');?>
+</div>
  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

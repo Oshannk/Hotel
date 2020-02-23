@@ -32,7 +32,7 @@
     </div>
     <div class="row">
         <div class="col-sm-8">
-            <img style="position: relative; left: 25%;" src="Img/dining_ban.jpg">
+            <img style="position: relative; left: 25%;" class="carousel-item active" src="Img/dining_ban.jpg">
         </div>
     </div>
     <br>
