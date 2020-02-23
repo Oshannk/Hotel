@@ -105,8 +105,8 @@
  <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
-
-      <div class="col-md-8" style="position: relative; left: 20%;">
+<div class="container">
+      <div class="col-md-12" >
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
@@ -136,7 +136,7 @@
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
       </div>
-
+</div>
 
 <hr>
 <!-- Start home-about Area -->
@@ -191,7 +191,10 @@
 <!-- End home-about Area -->	
 
 <!-- Footer -->
+<div>
+
 <?php include ('asset/footer.html');?>
+</div>
  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

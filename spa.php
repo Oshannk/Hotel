@@ -23,10 +23,10 @@
     <br><br>
     <br>
     <br>
-<div class="comtainer animated fadeInUp">
+<div class="container animated fadeInUp">
     <div class="row">
         <div class="container">
-            <img src="img/spa_banner.jpg" alt="banner">
+            <img class="carousel-item active" src="img/spa_banner.jpg" alt="banner">
         </div>
     </div>
 </div>
