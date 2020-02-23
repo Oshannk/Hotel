@@ -143,14 +143,7 @@ E-mail : <a href="mailto:lagoonview@gmail.com">lagoonview@gmail.com</a><br> <br>
 
 </section>
 <!--Section: Contact v.2-->
-
-
-
 </div>
-
-
-
-
 
 </div>
 
