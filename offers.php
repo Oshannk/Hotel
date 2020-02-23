@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/mbr-additional.css" type="text/css">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/carousel/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
       
     <title>Offers</title>
   </head>
@@ -24,9 +25,9 @@
      <br>
     <hr>
 
-<div class="container">
+<div class="container animated fadeIn">
     <div class="row">
-        <div class="col-sm-12">
+        <div class="col-sm-12 ">
             <h2 class="font1">SPECIAL OFFERS</h2>
         </div>
     </div>
@@ -40,7 +41,7 @@
 <div class="album py-5 bg-light">
     <div class="container">
       <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 animated fadeInLeft">
                 <div class="card mb-4 shadow-sm">
                     <img class="card-img-top" src="img/offer2.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -64,7 +65,7 @@
               </div>              
 
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 animated fadeInUp">
                 <div class="card mb-4 shadow-sm">
                     <img class="card-img-top" src="img/offer1.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -89,7 +90,7 @@
                     </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 animated fadeInRight">
                 <div class="card mb-4 shadow-sm">
                     <img class="card-img-top" src="img/offer3.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -134,5 +135,26 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 
+     <!-- JavaScript for animated fadeInUp using wow-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script>
+        var wow = new WOW(
+      {
+        boxClass:     'wow',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset:       -250,          // distance to the element when triggering the animation (default is 0)
+        mobile:       true,       // trigger animations on mobile devices (default is true)
+        live:         true,       // act on asynchronously loaded content (default is true)
+        callback:     function(box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null,    // optional scroll container selector, otherwise use window,
+        resetAnimation: true,     // reset animation on end (default is true)
+      }
+    );
+    wow.init();
+	</script>
   </body>
 </html>
