@@ -125,7 +125,7 @@
               <img class="card-img-top" src="img/superior_twin.jpg" alt="Card image cap">
               <div class="card-body">
                 <h3 class="room-title">
-                    <a href="#">SUPERIOR ROOM</a>
+                    <a href="#">PLATIMUM ROOM</a>
                 </h3>
                 <ul class="room-info">
                     <li style="font-size: 13px;">  35 SQUARE METRES</li><br>
