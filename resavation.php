@@ -85,8 +85,13 @@
                 <img class="d-block w-100" id= "swap" src="img/banner1.jpg" alt="First slide">
                 <div class="carousel-caption " id="res">
                     <div id="booking" class="section">
+
                         <div class="section-center">
                             <div class="container animated fadeInUp">
+
+                        <div class="section-center" >
+                            <div class="container">
+
                                 <div class="row">
                                     <div class="booking-form">
                                         <div class="form-header">
