@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
       
-    <title>Lagoon View</title>
+    <title>Dining</title>
   </head>
   <body >
 
@@ -23,7 +23,7 @@
     <br><br>
  
     <hr>
-<div class="container-fluid animated fadeInRight">
+ <div class="container-fluid animated fadeInRight"> <!--all animation statrt when tha page load -->
     <div class="row">
         <div class="col-sm-12">
             <h2 class="font1">Dining At Lagoon Villa Resort</h2>
